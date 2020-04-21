@@ -26,7 +26,9 @@ namespace PizzariaUI
 
         private void returnCust_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            New_Customer cl = new New_Customer();
+            cl.Show();
         }
     }
 }

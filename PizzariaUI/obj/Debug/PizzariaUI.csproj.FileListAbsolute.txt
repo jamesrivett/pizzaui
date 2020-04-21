@@ -9,3 +9,4 @@ C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.csproj.C
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.exe
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.pdb
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.Customer_Login.resources
+C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.New_Customer.resources
