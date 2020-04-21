@@ -64,12 +64,13 @@
             this.returnCust.TabIndex = 2;
             this.returnCust.Text = "RETURNING CUSTOMER";
             this.returnCust.UseVisualStyleBackColor = true;
+            this.returnCust.Click += new System.EventHandler(this.returnCust_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 450);
+            this.ClientSize = new System.Drawing.Size(334, 226);
             this.Controls.Add(this.returnCust);
             this.Controls.Add(this.newCust);
             this.Controls.Add(this.label1);

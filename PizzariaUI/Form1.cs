@@ -17,12 +17,12 @@ namespace PizzariaUI
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void newCust_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void newCust_Click(object sender, EventArgs e)
+        private void returnCust_Click(object sender, EventArgs e)
         {
 
         }
