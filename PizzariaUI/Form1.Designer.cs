@@ -40,16 +40,16 @@
             this.label1.Location = new System.Drawing.Point(149, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 72);
+            this.label1.Size = new System.Drawing.Size(214, 72);
             this.label1.TabIndex = 0;
-            this.label1.Text = "WELCOME!";
+            this.label1.Text = "WELCOME";
             this.label1.Click += new System.EventHandler(this.newCust_Click);
             // 
             // newCust
             // 
             this.newCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newCust.Location = new System.Drawing.Point(16, 133);
-            this.newCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newCust.Margin = new System.Windows.Forms.Padding(4);
             this.newCust.Name = "newCust";
             this.newCust.Size = new System.Drawing.Size(359, 62);
             this.newCust.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.returnCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.returnCust.Location = new System.Drawing.Point(16, 202);
-            this.returnCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.returnCust.Margin = new System.Windows.Forms.Padding(4);
             this.returnCust.Name = "returnCust";
             this.returnCust.Size = new System.Drawing.Size(359, 62);
             this.returnCust.TabIndex = 2;
@@ -77,7 +77,7 @@
             this.Controls.Add(this.returnCust);
             this.Controls.Add(this.newCust);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
