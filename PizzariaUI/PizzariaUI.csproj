@@ -52,6 +52,12 @@
     <Compile Include="Account Details.Designer.cs">
       <DependentUpon>Account Details.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Page.Designer.cs">
+      <DependentUpon>Menu Page.cs</DependentUpon>
+    </Compile>
     <Compile Include="New Customer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Account Details.resx">
       <DependentUpon>Account Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Page.resx">
+      <DependentUpon>Menu Page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="New Customer.resx">
       <DependentUpon>New Customer.cs</DependentUpon>
