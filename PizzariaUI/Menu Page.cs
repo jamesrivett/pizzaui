@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PizzariaUI
 {
-    public partial class Customer_Login : Form
+    public partial class Menu_Page : Form
     {
-        public Customer_Login()
+        public Menu_Page()
         {
             InitializeComponent();
-        }
-
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Account_Details ad1 = new Account_Details();
-            ad1.Show();
         }
     }
 }
