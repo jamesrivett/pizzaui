@@ -37,17 +37,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(149, 9);
+            this.label1.Location = new System.Drawing.Point(192, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(173, 58);
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Click += new System.EventHandler(this.newCust_Click);
             // 
             // newCust
             // 
             this.newCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newCust.Location = new System.Drawing.Point(53, 85);
+            this.newCust.Location = new System.Drawing.Point(96, 108);
             this.newCust.Name = "newCust";
             this.newCust.Size = new System.Drawing.Size(269, 50);
             this.newCust.TabIndex = 1;
@@ -58,7 +58,7 @@
             // returnCust
             // 
             this.returnCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnCust.Location = new System.Drawing.Point(53, 156);
+            this.returnCust.Location = new System.Drawing.Point(96, 164);
             this.returnCust.Name = "returnCust";
             this.returnCust.Size = new System.Drawing.Size(269, 50);
             this.returnCust.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 226);
+            this.ClientSize = new System.Drawing.Size(377, 226);
             this.Controls.Add(this.returnCust);
             this.Controls.Add(this.newCust);
             this.Controls.Add(this.label1);
