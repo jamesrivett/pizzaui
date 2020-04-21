@@ -84,8 +84,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Homepage.resx">
-      <DependentUpon>Homepage.cs</DependentUpon>
+    <EmbeddedResource Include="Account Details.resx">
+      <DependentUpon>Account Details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="New Customer.resx">
       <DependentUpon>New Customer.cs</DependentUpon>
