@@ -37,11 +37,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 31);
+            this.label1.Location = new System.Drawing.Point(6, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 58);
+            this.label1.Size = new System.Drawing.Size(311, 58);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hi Hello!";
+            this.label1.Text = "JORGE CABALLERO";
             this.label1.Click += new System.EventHandler(this.newCust_Click);
             // 
             // newCust
