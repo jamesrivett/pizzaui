@@ -17,14 +17,14 @@ namespace PizzariaUI
             InitializeComponent();
         }
 
-        private void newCust_Click(object sender, EventArgs e)
+        private void returnCust_Click(object sender, EventArgs e)
         {
             this.Hide();
             Customer_Login cl = new Customer_Login();
             cl.Show();
         }
 
-        private void returnCust_Click(object sender, EventArgs e)
+        private void newCust_Click(object sender, EventArgs e)
         {
             this.Hide();
             New_Customer cl = new New_Customer();
