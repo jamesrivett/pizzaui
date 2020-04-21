@@ -86,12 +86,13 @@
             // loginButton
             // 
             this.loginButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginButton.Location = new System.Drawing.Point(51, 240);
+            this.loginButton.Location = new System.Drawing.Point(36, 249);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(246, 57);
             this.loginButton.TabIndex = 6;
             this.loginButton.Text = "LOGIN";
             this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // Customer_Login
             // 
