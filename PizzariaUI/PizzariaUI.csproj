@@ -52,18 +52,6 @@
     <Compile Include="Account Details.Designer.cs">
       <DependentUpon>Account Details.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employee Login.Designer.cs">
-      <DependentUpon>Employee Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Homepage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Homepage.Designer.cs">
-      <DependentUpon>Homepage.cs</DependentUpon>
-    </Compile>
     <Compile Include="New Customer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,9 +74,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Account Details.resx">
       <DependentUpon>Account Details.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Employee Login.resx">
-      <DependentUpon>Employee Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="New Customer.resx">
       <DependentUpon>New Customer.cs</DependentUpon>

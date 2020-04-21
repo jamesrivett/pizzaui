@@ -16,5 +16,12 @@ namespace PizzariaUI
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Account_Details ad1 = new Account_Details();
+            ad1.Show();
+        }
     }
 }
