@@ -39,16 +39,21 @@
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 9);
             this.label1.Name = "label1";
+<<<<<<< HEAD
             this.label1.Size = new System.Drawing.Size(311, 58);
             this.label1.TabIndex = 0;
             this.label1.Text = "JORGE CABALLERO";
+=======
+            this.label1.Size = new System.Drawing.Size(131, 58);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Q zone";
+>>>>>>> master
             this.label1.Click += new System.EventHandler(this.newCust_Click);
             // 
             // newCust
             // 
             this.newCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newCust.Location = new System.Drawing.Point(16, 133);
-            this.newCust.Margin = new System.Windows.Forms.Padding(4);
+            this.newCust.Location = new System.Drawing.Point(12, 108);
             this.newCust.Name = "newCust";
             this.newCust.Size = new System.Drawing.Size(269, 50);
             this.newCust.TabIndex = 1;
@@ -59,8 +64,7 @@
             // returnCust
             // 
             this.returnCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnCust.Location = new System.Drawing.Point(16, 202);
-            this.returnCust.Margin = new System.Windows.Forms.Padding(4);
+            this.returnCust.Location = new System.Drawing.Point(12, 164);
             this.returnCust.Name = "returnCust";
             this.returnCust.Size = new System.Drawing.Size(269, 50);
             this.returnCust.TabIndex = 2;
@@ -76,10 +80,8 @@
             this.Controls.Add(this.returnCust);
             this.Controls.Add(this.newCust);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
