@@ -16,5 +16,10 @@ namespace PizzariaUI
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
