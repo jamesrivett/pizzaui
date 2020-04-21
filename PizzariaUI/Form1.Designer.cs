@@ -37,21 +37,30 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(149, 38);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(112, 31);
             this.label1.Name = "label1";
+<<<<<<< Updated upstream
             this.label1.Size = new System.Drawing.Size(226, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME!";
+=======
+            this.label1.Size = new System.Drawing.Size(176, 58);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DickButts";
+>>>>>>> Stashed changes
             this.label1.Click += new System.EventHandler(this.newCust_Click);
             // 
             // newCust
             // 
             this.newCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.newCust.Location = new System.Drawing.Point(16, 133);
             this.newCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.newCust.Location = new System.Drawing.Point(12, 108);
+>>>>>>> Stashed changes
             this.newCust.Name = "newCust";
-            this.newCust.Size = new System.Drawing.Size(359, 62);
+            this.newCust.Size = new System.Drawing.Size(269, 50);
             this.newCust.TabIndex = 1;
             this.newCust.Text = "NEW CUSTOMER";
             this.newCust.UseVisualStyleBackColor = true;
@@ -60,10 +69,14 @@
             // returnCust
             // 
             this.returnCust.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.returnCust.Location = new System.Drawing.Point(16, 202);
             this.returnCust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.returnCust.Location = new System.Drawing.Point(12, 164);
+>>>>>>> Stashed changes
             this.returnCust.Name = "returnCust";
-            this.returnCust.Size = new System.Drawing.Size(359, 62);
+            this.returnCust.Size = new System.Drawing.Size(269, 50);
             this.returnCust.TabIndex = 2;
             this.returnCust.Text = "RETURNING CUSTOMER";
             this.returnCust.UseVisualStyleBackColor = true;
@@ -71,15 +84,19 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(392, 278);
+            this.ClientSize = new System.Drawing.Size(294, 226);
             this.Controls.Add(this.returnCust);
             this.Controls.Add(this.newCust);
             this.Controls.Add(this.label1);
+<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+>>>>>>> Stashed changes
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
