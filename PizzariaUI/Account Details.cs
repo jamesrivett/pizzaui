@@ -82,5 +82,12 @@ namespace PizzariaUI
             Form1 f1 = new Form1();
             f1.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Order_History oh = new Order_History();
+            oh.Show();
+        }
     }
 }

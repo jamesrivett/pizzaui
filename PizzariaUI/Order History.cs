@@ -36,5 +36,31 @@ namespace PizzariaUI
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu_Page mp = new Menu_Page();
+            mp.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Order_History oh = new Order_History();
+            oh.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Account_Details ad = new Account_Details();
+            ad.Show();
+        }
+
+        private void Order_History_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

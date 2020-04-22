@@ -81,7 +81,9 @@ namespace PizzariaUI
 
         private void orderHistoryButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Order_History oh = new Order_History();
+            oh.Show();
         }
 
         private void accountDetailsButton_Click(object sender, EventArgs e)
