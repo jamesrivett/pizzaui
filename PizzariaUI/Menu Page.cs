@@ -69,7 +69,33 @@ namespace PizzariaUI
 
         private void button49_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu_Page mp = new Menu_Page();
+            mp.Show();
+        }
+
+        private void orderHistoryButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void accountDetailsButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Account_Details ad = new Account_Details();
+            ad.Show();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.Show();
         }
     }
 }

@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.homeButton = new System.Windows.Forms.Button();
+            this.dealsButton = new System.Windows.Forms.Button();
+            this.orderHistoryButton = new System.Windows.Forms.Button();
+            this.accountDetailsButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.cheeseSmallButton = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -48,10 +48,10 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.cheeseLargeButton = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.cheeseMediumButton = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
@@ -76,7 +76,7 @@
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
+            this.cheeseXlButton = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
@@ -95,51 +95,55 @@
             this.button48 = new System.Windows.Forms.Button();
             this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // homeButton
             // 
-            this.button1.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(180, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 63);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "HOME";
-            this.button1.UseVisualStyleBackColor = true;
+            this.homeButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeButton.Location = new System.Drawing.Point(180, 23);
+            this.homeButton.Margin = new System.Windows.Forms.Padding(2);
+            this.homeButton.Name = "homeButton";
+            this.homeButton.Size = new System.Drawing.Size(136, 63);
+            this.homeButton.TabIndex = 1;
+            this.homeButton.Text = "HOME";
+            this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // dealsButton
             // 
-            this.button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(321, 23);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 63);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "DEALS";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dealsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dealsButton.Location = new System.Drawing.Point(321, 23);
+            this.dealsButton.Margin = new System.Windows.Forms.Padding(2);
+            this.dealsButton.Name = "dealsButton";
+            this.dealsButton.Size = new System.Drawing.Size(136, 63);
+            this.dealsButton.TabIndex = 2;
+            this.dealsButton.Text = "DEALS";
+            this.dealsButton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // orderHistoryButton
             // 
-            this.button3.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(461, 23);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 63);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "ORDER HISTORY";
-            this.button3.UseVisualStyleBackColor = true;
+            this.orderHistoryButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderHistoryButton.Location = new System.Drawing.Point(461, 23);
+            this.orderHistoryButton.Margin = new System.Windows.Forms.Padding(2);
+            this.orderHistoryButton.Name = "orderHistoryButton";
+            this.orderHistoryButton.Size = new System.Drawing.Size(136, 63);
+            this.orderHistoryButton.TabIndex = 3;
+            this.orderHistoryButton.Text = "ORDER HISTORY";
+            this.orderHistoryButton.UseVisualStyleBackColor = true;
+            this.orderHistoryButton.Click += new System.EventHandler(this.orderHistoryButton_Click);
             // 
-            // button4
+            // accountDetailsButton
             // 
-            this.button4.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(601, 23);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(163, 63);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "ACCOUNT DETAILS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.accountDetailsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountDetailsButton.Location = new System.Drawing.Point(601, 23);
+            this.accountDetailsButton.Margin = new System.Windows.Forms.Padding(2);
+            this.accountDetailsButton.Name = "accountDetailsButton";
+            this.accountDetailsButton.Size = new System.Drawing.Size(163, 63);
+            this.accountDetailsButton.TabIndex = 4;
+            this.accountDetailsButton.Text = "ACCOUNT DETAILS";
+            this.accountDetailsButton.UseVisualStyleBackColor = true;
+            this.accountDetailsButton.Click += new System.EventHandler(this.accountDetailsButton_Click);
             // 
             // label1
             // 
@@ -223,15 +227,15 @@
             this.label8.TabIndex = 12;
             this.label8.Text = "Pepperoni";
             // 
-            // button5
+            // cheeseSmallButton
             // 
-            this.button5.Location = new System.Drawing.Point(249, 226);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 13;
-            this.button5.Text = "Small";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.cheeseSmallButton.Location = new System.Drawing.Point(249, 226);
+            this.cheeseSmallButton.Name = "cheeseSmallButton";
+            this.cheeseSmallButton.Size = new System.Drawing.Size(75, 23);
+            this.cheeseSmallButton.TabIndex = 13;
+            this.cheeseSmallButton.Text = "Small";
+            this.cheeseSmallButton.UseVisualStyleBackColor = true;
+            this.cheeseSmallButton.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -296,14 +300,14 @@
             this.button12.Text = "Large";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // cheeseLargeButton
             // 
-            this.button13.Location = new System.Drawing.Point(521, 225);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 21;
-            this.button13.Text = "Large";
-            this.button13.UseVisualStyleBackColor = true;
+            this.cheeseLargeButton.Location = new System.Drawing.Point(521, 225);
+            this.cheeseLargeButton.Name = "cheeseLargeButton";
+            this.cheeseLargeButton.Size = new System.Drawing.Size(75, 23);
+            this.cheeseLargeButton.TabIndex = 21;
+            this.cheeseLargeButton.Text = "Large";
+            this.cheeseLargeButton.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
@@ -323,14 +327,14 @@
             this.button15.Text = "Medium";
             this.button15.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // cheeseMediumButton
             // 
-            this.button16.Location = new System.Drawing.Point(385, 224);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 24;
-            this.button16.Text = "Medium";
-            this.button16.UseVisualStyleBackColor = true;
+            this.cheeseMediumButton.Location = new System.Drawing.Point(385, 224);
+            this.cheeseMediumButton.Name = "cheeseMediumButton";
+            this.cheeseMediumButton.Size = new System.Drawing.Size(75, 23);
+            this.cheeseMediumButton.TabIndex = 24;
+            this.cheeseMediumButton.Text = "Medium";
+            this.cheeseMediumButton.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -554,15 +558,15 @@
             this.button34.Text = "Small";
             this.button34.UseVisualStyleBackColor = true;
             // 
-            // button35
+            // cheeseXlButton
             // 
-            this.button35.Location = new System.Drawing.Point(657, 226);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(75, 23);
-            this.button35.TabIndex = 52;
-            this.button35.Text = "X-Large";
-            this.button35.UseVisualStyleBackColor = true;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
+            this.cheeseXlButton.Location = new System.Drawing.Point(657, 226);
+            this.cheeseXlButton.Name = "cheeseXlButton";
+            this.cheeseXlButton.Size = new System.Drawing.Size(75, 23);
+            this.cheeseXlButton.TabIndex = 52;
+            this.cheeseXlButton.Text = "X-Large";
+            this.cheeseXlButton.UseVisualStyleBackColor = true;
+            this.cheeseXlButton.Click += new System.EventHandler(this.button35_Click);
             // 
             // button36
             // 
@@ -734,11 +738,23 @@
             this.button50.Text = "Peppers";
             this.button50.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(13, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 35);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "LOGOUT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Menu_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 1061);
+            this.ClientSize = new System.Drawing.Size(839, 650);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button47);
             this.Controls.Add(this.button48);
             this.Controls.Add(this.button49);
@@ -754,7 +770,7 @@
             this.Controls.Add(this.button41);
             this.Controls.Add(this.button42);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.button35);
+            this.Controls.Add(this.cheeseXlButton);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button38);
@@ -782,10 +798,10 @@
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.cheeseMediumButton);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.cheeseLargeButton);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -793,7 +809,7 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.cheeseSmallButton);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -802,10 +818,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.accountDetailsButton);
+            this.Controls.Add(this.orderHistoryButton);
+            this.Controls.Add(this.dealsButton);
+            this.Controls.Add(this.homeButton);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu_Page";
             this.Text = "Menu_Page";
@@ -817,10 +833,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button homeButton;
+        private System.Windows.Forms.Button dealsButton;
+        private System.Windows.Forms.Button orderHistoryButton;
+        private System.Windows.Forms.Button accountDetailsButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -829,7 +845,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button cheeseSmallButton;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
@@ -837,10 +853,10 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button cheeseLargeButton;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button cheeseMediumButton;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
@@ -865,7 +881,7 @@
         private System.Windows.Forms.Button button32;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button cheeseXlButton;
         private System.Windows.Forms.Button button36;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
@@ -884,5 +900,6 @@
         private System.Windows.Forms.Button button48;
         private System.Windows.Forms.Button button49;
         private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button1;
     }
 }

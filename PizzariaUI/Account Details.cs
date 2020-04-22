@@ -19,7 +19,9 @@ namespace PizzariaUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("ayo");
+            this.Hide();
+            Menu_Page mp = new Menu_Page();
+            mp.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -65,6 +67,20 @@ namespace PizzariaUI
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Account_Details ad = new Account_Details();
+            ad.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.Show();
         }
     }
 }
