@@ -96,7 +96,6 @@
             this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.SuspendLayout();
             // 
             // homeButton
@@ -814,19 +813,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1078, 257);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(29, 520);
-            this.vScrollBar1.TabIndex = 69;
-            // 
             // Menu_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 805);
-            this.Controls.Add(this.vScrollBar1);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1130, 993);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button47);
             this.Controls.Add(this.button48);
@@ -974,6 +966,5 @@
         private System.Windows.Forms.Button button49;
         private System.Windows.Forms.Button button50;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
