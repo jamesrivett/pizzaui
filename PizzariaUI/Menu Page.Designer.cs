@@ -108,54 +108,28 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -163,7 +137,7 @@
             // 
             this.homeButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeButton.Location = new System.Drawing.Point(180, 23);
-            this.homeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.homeButton.Margin = new System.Windows.Forms.Padding(2);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(136, 63);
             this.homeButton.TabIndex = 1;
@@ -175,7 +149,7 @@
             // 
             this.dealsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dealsButton.Location = new System.Drawing.Point(321, 23);
-            this.dealsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dealsButton.Margin = new System.Windows.Forms.Padding(2);
             this.dealsButton.Name = "dealsButton";
             this.dealsButton.Size = new System.Drawing.Size(136, 63);
             this.dealsButton.TabIndex = 2;
@@ -186,7 +160,7 @@
             // 
             this.orderHistoryButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderHistoryButton.Location = new System.Drawing.Point(461, 23);
-            this.orderHistoryButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.orderHistoryButton.Margin = new System.Windows.Forms.Padding(2);
             this.orderHistoryButton.Name = "orderHistoryButton";
             this.orderHistoryButton.Size = new System.Drawing.Size(136, 63);
             this.orderHistoryButton.TabIndex = 3;
@@ -198,7 +172,7 @@
             // 
             this.accountDetailsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accountDetailsButton.Location = new System.Drawing.Point(601, 23);
-            this.accountDetailsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.accountDetailsButton.Margin = new System.Windows.Forms.Padding(2);
             this.accountDetailsButton.Name = "accountDetailsButton";
             this.accountDetailsButton.Size = new System.Drawing.Size(163, 63);
             this.accountDetailsButton.TabIndex = 4;
@@ -850,7 +824,7 @@
             this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(20, 255);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(67, 17);
             this.checkBox1.TabIndex = 11;
@@ -862,7 +836,7 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(20, 341);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 60);
             this.button2.TabIndex = 18;
@@ -874,7 +848,7 @@
             this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(20, 277);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(64, 17);
             this.checkBox2.TabIndex = 12;
@@ -897,7 +871,7 @@
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox4.Location = new System.Drawing.Point(20, 319);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(120, 20);
             this.textBox4.TabIndex = 17;
@@ -939,407 +913,11 @@
             this.button5.Text = "Stuffed";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // label21
-            // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label21.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label21.Location = new System.Drawing.Point(329, 226);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(50, 26);
-            this.label21.TabIndex = 81;
-            this.label21.Text = "$ 6.00";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label22
-            // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label22.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label22.Location = new System.Drawing.Point(329, 271);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 26);
-            this.label22.TabIndex = 82;
-            this.label22.Text = "$ 8.00";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label23
-            // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label23.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label23.Location = new System.Drawing.Point(329, 315);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(50, 26);
-            this.label23.TabIndex = 83;
-            this.label23.Text = "$ 6.50";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label24
-            // 
-            this.label24.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label24.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label24.Location = new System.Drawing.Point(329, 359);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(50, 26);
-            this.label24.TabIndex = 84;
-            this.label24.Text = "$6.25";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label25
-            // 
-            this.label25.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label25.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label25.Location = new System.Drawing.Point(466, 355);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(50, 26);
-            this.label25.TabIndex = 88;
-            this.label25.Text = "$ 8.25";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label26
-            // 
-            this.label26.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label26.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label26.Location = new System.Drawing.Point(466, 311);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(50, 26);
-            this.label26.TabIndex = 87;
-            this.label26.Text = "$ 8.50";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label28.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label28.Location = new System.Drawing.Point(466, 222);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(50, 26);
-            this.label28.TabIndex = 85;
-            this.label28.Text = "$ 8.00";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label32
-            // 
-            this.label32.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label32.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label32.Location = new System.Drawing.Point(596, 227);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(56, 26);
-            this.label32.TabIndex = 89;
-            this.label32.Text = "$ 10.00";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label36
-            // 
-            this.label36.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label36.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label36.Location = new System.Drawing.Point(737, 227);
-            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(62, 26);
-            this.label36.TabIndex = 93;
-            this.label36.Text = "$ 12.00";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label29.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label29.Location = new System.Drawing.Point(597, 271);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(56, 26);
-            this.label29.TabIndex = 94;
-            this.label29.Text = "$ 12.00";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            this.label30.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label30.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label30.Location = new System.Drawing.Point(597, 315);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(56, 26);
-            this.label30.TabIndex = 95;
-            this.label30.Text = "$ 10.50";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label31.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label31.Location = new System.Drawing.Point(596, 359);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(56, 26);
-            this.label31.TabIndex = 96;
-            this.label31.Text = "$ 10.25";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label33
-            // 
-            this.label33.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label33.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label33.Location = new System.Drawing.Point(737, 270);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(62, 26);
-            this.label33.TabIndex = 97;
-            this.label33.Text = "$ 14.00";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label34
-            // 
-            this.label34.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label34.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label34.Location = new System.Drawing.Point(737, 315);
-            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(62, 26);
-            this.label34.TabIndex = 98;
-            this.label34.Text = "$ 12.50";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label35
-            // 
-            this.label35.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label35.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label35.Location = new System.Drawing.Point(737, 358);
-            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(62, 26);
-            this.label35.TabIndex = 99;
-            this.label35.Text = "$ 12.25";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label27.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label27.Location = new System.Drawing.Point(466, 267);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(56, 26);
-            this.label27.TabIndex = 100;
-            this.label27.Text = "$ 10.00";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label37
-            // 
-            this.label37.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label37.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label37.Location = new System.Drawing.Point(329, 470);
-            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(50, 26);
-            this.label37.TabIndex = 101;
-            this.label37.Text = "$6.00 +";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label44
-            // 
-            this.label44.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label44.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label44.Location = new System.Drawing.Point(101, 613);
-            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(88, 26);
-            this.label44.TabIndex = 108;
-            this.label44.Text = "$ 1.25 each";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label38
-            // 
-            this.label38.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label38.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label38.Location = new System.Drawing.Point(466, 473);
-            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(50, 26);
-            this.label38.TabIndex = 109;
-            this.label38.Text = "$8.00 +";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label39
-            // 
-            this.label39.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label39.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label39.Location = new System.Drawing.Point(602, 473);
-            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(50, 26);
-            this.label39.TabIndex = 110;
-            this.label39.Text = "$10.00 +";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label40
-            // 
-            this.label40.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label40.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label40.Location = new System.Drawing.Point(737, 473);
-            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(50, 26);
-            this.label40.TabIndex = 111;
-            this.label40.Text = "$12.00 +";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label41
-            // 
-            this.label41.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label41.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label41.Location = new System.Drawing.Point(329, 527);
-            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(50, 26);
-            this.label41.TabIndex = 112;
-            this.label41.Text = "$6.00 +";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label42.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label42.Location = new System.Drawing.Point(466, 529);
-            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(50, 26);
-            this.label42.TabIndex = 113;
-            this.label42.Text = "$9.00 +";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label43
-            // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label43.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label43.Location = new System.Drawing.Point(602, 527);
-            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(50, 26);
-            this.label43.TabIndex = 114;
-            this.label43.Text = "$12.00 +";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label45
-            // 
-            this.label45.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label45.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label45.Location = new System.Drawing.Point(459, 741);
-            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(50, 26);
-            this.label45.TabIndex = 115;
-            this.label45.Text = "$3.00";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label46
-            // 
-            this.label46.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label46.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label46.Location = new System.Drawing.Point(459, 782);
-            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(50, 26);
-            this.label46.TabIndex = 116;
-            this.label46.Text = "$3.50";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label47
-            // 
-            this.label47.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label47.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label47.Location = new System.Drawing.Point(460, 828);
-            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(50, 26);
-            this.label47.TabIndex = 117;
-            this.label47.Text = "$2.50";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label48
-            // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label48.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label48.Location = new System.Drawing.Point(597, 828);
-            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(50, 26);
-            this.label48.TabIndex = 120;
-            this.label48.Text = "$3.50";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label49
-            // 
-            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label49.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label49.Location = new System.Drawing.Point(596, 782);
-            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(50, 26);
-            this.label49.TabIndex = 119;
-            this.label49.Text = "$4.50";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label50
-            // 
-            this.label50.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label50.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label50.Location = new System.Drawing.Point(596, 741);
-            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(50, 26);
-            this.label50.TabIndex = 118;
-            this.label50.Text = "$4.00";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label51
-            // 
-            this.label51.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label51.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label51.Location = new System.Drawing.Point(732, 828);
-            this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(50, 26);
-            this.label51.TabIndex = 123;
-            this.label51.Text = "$4.50";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label52
-            // 
-            this.label52.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label52.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label52.Location = new System.Drawing.Point(731, 782);
-            this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(50, 26);
-            this.label52.TabIndex = 122;
-            this.label52.Text = "$5.00";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label53
-            // 
-            this.label53.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label53.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label53.Location = new System.Drawing.Point(731, 741);
-            this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(50, 26);
-            this.label53.TabIndex = 121;
-            this.label53.Text = "$5.00";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label54
             // 
             this.label54.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label54.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label54.Location = new System.Drawing.Point(442, 1085);
+            this.label54.Location = new System.Drawing.Point(282, 1331);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(50, 26);
@@ -1351,7 +929,7 @@
             // 
             this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label55.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label55.Location = new System.Drawing.Point(441, 1039);
+            this.label55.Location = new System.Drawing.Point(281, 1285);
             this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(50, 26);
@@ -1359,23 +937,11 @@
             this.label55.Text = "$1.25";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label56
-            // 
-            this.label56.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label56.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label56.Location = new System.Drawing.Point(457, 906);
-            this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(50, 26);
-            this.label56.TabIndex = 124;
-            this.label56.Text = "$1.25";
-            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label57
             // 
             this.label57.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label57.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label57.Location = new System.Drawing.Point(579, 1081);
+            this.label57.Location = new System.Drawing.Point(419, 1327);
             this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(50, 26);
@@ -1387,7 +953,7 @@
             // 
             this.label58.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label58.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label58.Location = new System.Drawing.Point(578, 1035);
+            this.label58.Location = new System.Drawing.Point(418, 1281);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(50, 26);
@@ -1395,23 +961,11 @@
             this.label58.Text = "$2.00";
             this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label59
-            // 
-            this.label59.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label59.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label59.Location = new System.Drawing.Point(594, 902);
-            this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(50, 26);
-            this.label59.TabIndex = 127;
-            this.label59.Text = "$2.00";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label60
             // 
             this.label60.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label60.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label60.Location = new System.Drawing.Point(714, 1085);
+            this.label60.Location = new System.Drawing.Point(554, 1331);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(50, 26);
@@ -1423,7 +977,7 @@
             // 
             this.label61.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label61.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label61.Location = new System.Drawing.Point(713, 1039);
+            this.label61.Location = new System.Drawing.Point(553, 1285);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(50, 26);
@@ -1431,144 +985,208 @@
             this.label61.Text = "$2.50";
             this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label62
-            // 
-            this.label62.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label62.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label62.Location = new System.Drawing.Point(729, 906);
-            this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(50, 26);
-            this.label62.TabIndex = 130;
-            this.label62.Text = "$2.50";
-            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label63
             // 
-            this.label63.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label63.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label63.Location = new System.Drawing.Point(729, 951);
+            this.label63.Location = new System.Drawing.Point(681, 1074);
             this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(50, 26);
             this.label63.TabIndex = 135;
             this.label63.Text = "$2.50";
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label64
-            // 
-            this.label64.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label64.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label64.Location = new System.Drawing.Point(594, 947);
-            this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(50, 26);
-            this.label64.TabIndex = 134;
-            this.label64.Text = "$2.00";
-            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label65
-            // 
-            this.label65.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label65.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label65.Location = new System.Drawing.Point(457, 951);
-            this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(50, 26);
-            this.label65.TabIndex = 133;
-            this.label65.Text = "$1.25";
-            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label63.Click += new System.EventHandler(this.label63_Click);
             // 
             // label66
             // 
-            this.label66.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label66.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label66.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label66.Location = new System.Drawing.Point(729, 994);
+            this.label66.Location = new System.Drawing.Point(681, 1117);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(50, 26);
             this.label66.TabIndex = 138;
             this.label66.Text = "$5.00";
             this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label66.Click += new System.EventHandler(this.label66_Click);
             // 
             // label67
             // 
-            this.label67.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label67.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label67.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label67.Location = new System.Drawing.Point(594, 990);
+            this.label67.Location = new System.Drawing.Point(546, 1113);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(50, 26);
             this.label67.TabIndex = 137;
             this.label67.Text = "$4.00";
             this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label67.Click += new System.EventHandler(this.label67_Click);
             // 
             // label68
             // 
-            this.label68.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label68.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label68.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label68.Location = new System.Drawing.Point(457, 994);
+            this.label68.Location = new System.Drawing.Point(409, 1117);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(50, 26);
             this.label68.TabIndex = 136;
             this.label68.Text = "$2.25";
             this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label68.Click += new System.EventHandler(this.label68_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(330, 228);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(40, 19);
+            this.label21.TabIndex = 139;
+            this.label21.Text = "$8.00";
+            this.label21.Click += new System.EventHandler(this.label21_Click_1);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(330, 317);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(40, 19);
+            this.label22.TabIndex = 140;
+            this.label22.Text = "$8.00";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(330, 360);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(40, 19);
+            this.label23.TabIndex = 141;
+            this.label23.Text = "$8.00";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(466, 358);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(40, 19);
+            this.label24.TabIndex = 144;
+            this.label24.Text = "$8.00";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(466, 315);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(40, 19);
+            this.label25.TabIndex = 143;
+            this.label25.Text = "$8.00";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(466, 226);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(40, 19);
+            this.label26.TabIndex = 142;
+            this.label26.Text = "$8.00";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(602, 358);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(40, 19);
+            this.label27.TabIndex = 147;
+            this.label27.Text = "$8.00";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(602, 315);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(40, 19);
+            this.label28.TabIndex = 146;
+            this.label28.Text = "$8.00";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(602, 226);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(40, 19);
+            this.label29.TabIndex = 145;
+            this.label29.Text = "$8.00";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(738, 360);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(40, 19);
+            this.label30.TabIndex = 150;
+            this.label30.Text = "$8.00";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(738, 317);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(40, 19);
+            this.label31.TabIndex = 149;
+            this.label31.Text = "$8.00";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(738, 228);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(40, 19);
+            this.label32.TabIndex = 148;
+            this.label32.Text = "$8.00";
             // 
             // Menu_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1040, 904);
+            this.AutoScrollMargin = new System.Drawing.Size(0, 20);
+            this.ClientSize = new System.Drawing.Size(982, 904);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
             this.Controls.Add(this.label66);
             this.Controls.Add(this.label67);
             this.Controls.Add(this.label68);
             this.Controls.Add(this.label63);
-            this.Controls.Add(this.label64);
-            this.Controls.Add(this.label65);
             this.Controls.Add(this.label60);
             this.Controls.Add(this.label61);
-            this.Controls.Add(this.label62);
             this.Controls.Add(this.label57);
             this.Controls.Add(this.label58);
-            this.Controls.Add(this.label59);
             this.Controls.Add(this.label54);
             this.Controls.Add(this.label55);
-            this.Controls.Add(this.label56);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.label48);
-            this.Controls.Add(this.label49);
-            this.Controls.Add(this.label50);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -1642,7 +1260,7 @@
             this.Controls.Add(this.orderHistoryButton);
             this.Controls.Add(this.dealsButton);
             this.Controls.Add(this.homeButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu_Page";
             this.Text = "Menu_Page";
             this.Load += new System.EventHandler(this.Menu_Page_Load);
@@ -1735,53 +1353,27 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label32;
     }
 }
