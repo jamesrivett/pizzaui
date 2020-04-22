@@ -99,5 +99,10 @@ namespace PizzariaUI
             Form1 f1 = new Form1();
             f1.Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
