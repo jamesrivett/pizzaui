@@ -309,5 +309,10 @@ namespace PizzariaUI
         {
 
         }
+
+        private void label21_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
