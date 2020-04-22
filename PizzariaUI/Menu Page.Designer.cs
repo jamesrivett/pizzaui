@@ -96,6 +96,19 @@
             this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // homeButton
@@ -172,7 +185,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F);
-            this.label3.Location = new System.Drawing.Point(89, 805);
+            this.label3.Location = new System.Drawing.Point(80, 870);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 36);
@@ -184,7 +197,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F);
-            this.label4.Location = new System.Drawing.Point(80, 1045);
+            this.label4.Location = new System.Drawing.Point(80, 1081);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 36);
@@ -360,7 +373,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label9.Location = new System.Drawing.Point(124, 869);
+            this.label9.Location = new System.Drawing.Point(115, 906);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(140, 33);
@@ -369,7 +382,7 @@
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(695, 874);
+            this.button17.Location = new System.Drawing.Point(686, 911);
             this.button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(100, 28);
@@ -379,7 +392,7 @@
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(695, 928);
+            this.button18.Location = new System.Drawing.Point(686, 965);
             this.button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(100, 28);
@@ -389,7 +402,7 @@
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(876, 874);
+            this.button19.Location = new System.Drawing.Point(867, 911);
             this.button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(100, 28);
@@ -399,7 +412,7 @@
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(876, 928);
+            this.button20.Location = new System.Drawing.Point(867, 965);
             this.button20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(100, 28);
@@ -409,7 +422,7 @@
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(876, 982);
+            this.button21.Location = new System.Drawing.Point(867, 1019);
             this.button21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(100, 28);
@@ -419,7 +432,7 @@
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(695, 982);
+            this.button22.Location = new System.Drawing.Point(686, 1019);
             this.button22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(100, 28);
@@ -429,7 +442,7 @@
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(513, 983);
+            this.button23.Location = new System.Drawing.Point(504, 1020);
             this.button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(100, 28);
@@ -439,7 +452,7 @@
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(513, 929);
+            this.button24.Location = new System.Drawing.Point(504, 966);
             this.button24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(100, 28);
@@ -449,7 +462,7 @@
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(513, 875);
+            this.button25.Location = new System.Drawing.Point(504, 912);
             this.button25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(100, 28);
@@ -461,7 +474,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label10.Location = new System.Drawing.Point(124, 923);
+            this.label10.Location = new System.Drawing.Point(115, 960);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(167, 33);
@@ -472,7 +485,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label11.Location = new System.Drawing.Point(124, 977);
+            this.label11.Location = new System.Drawing.Point(115, 1014);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(167, 33);
@@ -483,7 +496,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label12.Location = new System.Drawing.Point(124, 1124);
+            this.label12.Location = new System.Drawing.Point(124, 1117);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(217, 33);
@@ -494,7 +507,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label13.Location = new System.Drawing.Point(124, 1178);
+            this.label13.Location = new System.Drawing.Point(124, 1171);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(263, 33);
@@ -505,7 +518,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label14.Location = new System.Drawing.Point(124, 1232);
+            this.label14.Location = new System.Drawing.Point(124, 1225);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(257, 33);
@@ -514,7 +527,7 @@
             // 
             // button26
             // 
-            this.button26.Location = new System.Drawing.Point(695, 1122);
+            this.button26.Location = new System.Drawing.Point(686, 1115);
             this.button26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(100, 28);
@@ -524,7 +537,7 @@
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(695, 1177);
+            this.button27.Location = new System.Drawing.Point(686, 1170);
             this.button27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(100, 28);
@@ -534,7 +547,7 @@
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(876, 1122);
+            this.button28.Location = new System.Drawing.Point(867, 1115);
             this.button28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(100, 28);
@@ -544,7 +557,7 @@
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(876, 1177);
+            this.button29.Location = new System.Drawing.Point(867, 1170);
             this.button29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(100, 28);
@@ -554,7 +567,7 @@
             // 
             // button30
             // 
-            this.button30.Location = new System.Drawing.Point(876, 1231);
+            this.button30.Location = new System.Drawing.Point(867, 1224);
             this.button30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(100, 28);
@@ -564,7 +577,7 @@
             // 
             // button31
             // 
-            this.button31.Location = new System.Drawing.Point(695, 1231);
+            this.button31.Location = new System.Drawing.Point(686, 1224);
             this.button31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(100, 28);
@@ -574,7 +587,7 @@
             // 
             // button32
             // 
-            this.button32.Location = new System.Drawing.Point(513, 1232);
+            this.button32.Location = new System.Drawing.Point(504, 1225);
             this.button32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(100, 28);
@@ -584,7 +597,7 @@
             // 
             // button33
             // 
-            this.button33.Location = new System.Drawing.Point(513, 1178);
+            this.button33.Location = new System.Drawing.Point(504, 1171);
             this.button33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(100, 28);
@@ -594,7 +607,7 @@
             // 
             // button34
             // 
-            this.button34.Location = new System.Drawing.Point(513, 1124);
+            this.button34.Location = new System.Drawing.Point(504, 1117);
             this.button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(100, 28);
@@ -713,7 +726,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
-            this.label17.Location = new System.Drawing.Point(124, 641);
+            this.label17.Location = new System.Drawing.Point(124, 694);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(92, 33);
@@ -722,7 +735,7 @@
             // 
             // button43
             // 
-            this.button43.Location = new System.Drawing.Point(876, 673);
+            this.button43.Location = new System.Drawing.Point(876, 726);
             this.button43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(100, 42);
@@ -732,7 +745,7 @@
             // 
             // button44
             // 
-            this.button44.Location = new System.Drawing.Point(695, 672);
+            this.button44.Location = new System.Drawing.Point(695, 725);
             this.button44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(100, 28);
@@ -742,7 +755,7 @@
             // 
             // button45
             // 
-            this.button45.Location = new System.Drawing.Point(513, 672);
+            this.button45.Location = new System.Drawing.Point(513, 725);
             this.button45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(100, 42);
@@ -752,7 +765,7 @@
             // 
             // button46
             // 
-            this.button46.Location = new System.Drawing.Point(332, 673);
+            this.button46.Location = new System.Drawing.Point(332, 726);
             this.button46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(100, 27);
@@ -762,7 +775,7 @@
             // 
             // button47
             // 
-            this.button47.Location = new System.Drawing.Point(876, 735);
+            this.button47.Location = new System.Drawing.Point(876, 788);
             this.button47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(100, 43);
@@ -772,7 +785,7 @@
             // 
             // button48
             // 
-            this.button48.Location = new System.Drawing.Point(695, 734);
+            this.button48.Location = new System.Drawing.Point(695, 787);
             this.button48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(100, 28);
@@ -782,7 +795,7 @@
             // 
             // button49
             // 
-            this.button49.Location = new System.Drawing.Point(513, 734);
+            this.button49.Location = new System.Drawing.Point(513, 787);
             this.button49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(100, 28);
@@ -793,7 +806,7 @@
             // 
             // button50
             // 
-            this.button50.Location = new System.Drawing.Point(332, 735);
+            this.button50.Location = new System.Drawing.Point(332, 788);
             this.button50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(100, 27);
@@ -813,12 +826,152 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.listBox1);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.checkBox2);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Location = new System.Drawing.Point(1086, 37);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(189, 513);
+            this.panel1.TabIndex = 76;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // listBox1
+            // 
+            this.listBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(25, 47);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(159, 260);
+            this.listBox1.TabIndex = 74;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label18.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
+            this.label18.Location = new System.Drawing.Point(20, 11);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(159, 32);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "CART ";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(31, 314);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(85, 21);
+            this.checkBox1.TabIndex = 11;
+            this.checkBox1.Text = "Delivery ";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(27, 420);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(160, 74);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "CHECK OUT ";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(34, 341);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(78, 21);
+            this.checkBox2.TabIndex = 12;
+            this.checkBox2.Text = "PickUp ";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(21, 361);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(105, 30);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "Order Total";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBox4.Location = new System.Drawing.Point(27, 393);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(159, 22);
+            this.textBox4.TabIndex = 17;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F);
+            this.label20.Location = new System.Drawing.Point(124, 639);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(67, 33);
+            this.label20.TabIndex = 77;
+            this.label20.Text = "Crust ";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(332, 648);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 27);
+            this.button3.TabIndex = 78;
+            this.button3.Text = "Regular";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(513, 648);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(100, 27);
+            this.button4.TabIndex = 79;
+            this.button4.Text = "Thin ";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(695, 645);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(100, 27);
+            this.button5.TabIndex = 80;
+            this.button5.Text = "Stuffed";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Menu_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1130, 993);
+            this.ClientSize = new System.Drawing.Size(1386, 1182);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button47);
             this.Controls.Add(this.button48);
@@ -891,6 +1044,8 @@
             this.Name = "Menu_Page";
             this.Text = "Menu_Page";
             this.Load += new System.EventHandler(this.Menu_Page_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -966,5 +1121,17 @@
         private System.Windows.Forms.Button button49;
         private System.Windows.Forms.Button button50;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
