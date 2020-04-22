@@ -11,3 +11,4 @@ C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.pdb
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.Customer_Login.resources
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.New_Customer.resources
 C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.Account_Details.resources
+C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.Menu_Page.resources
