@@ -941,213 +941,230 @@
             // 
             // label21
             // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label21.Location = new System.Drawing.Point(329, 222);
+            this.label21.Location = new System.Drawing.Point(328, 221);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(50, 26);
             this.label21.TabIndex = 81;
             this.label21.Text = "$ 6.00";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
             // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label22.Location = new System.Drawing.Point(329, 267);
+            this.label22.Location = new System.Drawing.Point(328, 266);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(50, 26);
             this.label22.TabIndex = 82;
             this.label22.Text = "$ 8.00";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label23
             // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label23.Location = new System.Drawing.Point(329, 311);
+            this.label23.Location = new System.Drawing.Point(328, 310);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(50, 26);
             this.label23.TabIndex = 83;
             this.label23.Text = "$ 6.50";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
             // 
-            this.label24.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label24.Location = new System.Drawing.Point(329, 355);
+            this.label24.Location = new System.Drawing.Point(328, 354);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(50, 26);
             this.label24.TabIndex = 84;
             this.label24.Text = "$6.25";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // label25
             // 
-            this.label25.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label25.Location = new System.Drawing.Point(466, 351);
+            this.label25.Location = new System.Drawing.Point(465, 350);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(50, 26);
             this.label25.TabIndex = 88;
             this.label25.Text = "$ 8.25";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label26
             // 
-            this.label26.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label26.Location = new System.Drawing.Point(466, 307);
+            this.label26.Location = new System.Drawing.Point(465, 306);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(50, 26);
             this.label26.TabIndex = 87;
             this.label26.Text = "$ 8.50";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // label28
             // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label28.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label28.Location = new System.Drawing.Point(466, 218);
+            this.label28.Location = new System.Drawing.Point(465, 217);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(50, 26);
             this.label28.TabIndex = 85;
             this.label28.Text = "$ 8.00";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
             // label32
             // 
-            this.label32.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label32.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label32.Location = new System.Drawing.Point(596, 223);
+            this.label32.Location = new System.Drawing.Point(595, 222);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(56, 26);
             this.label32.TabIndex = 89;
             this.label32.Text = "$ 10.00";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label32.Click += new System.EventHandler(this.label32_Click);
             // 
             // label36
             // 
-            this.label36.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label36.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label36.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label36.Location = new System.Drawing.Point(737, 223);
+            this.label36.Location = new System.Drawing.Point(736, 222);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(62, 26);
             this.label36.TabIndex = 93;
             this.label36.Text = "$ 12.00";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
             // label29
             // 
-            this.label29.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label29.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label29.Location = new System.Drawing.Point(597, 267);
+            this.label29.Location = new System.Drawing.Point(596, 266);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(56, 26);
             this.label29.TabIndex = 94;
             this.label29.Text = "$ 12.00";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label30
             // 
-            this.label30.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label30.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label30.Location = new System.Drawing.Point(597, 311);
+            this.label30.Location = new System.Drawing.Point(596, 310);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(56, 26);
             this.label30.TabIndex = 95;
             this.label30.Text = "$ 10.50";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.Click += new System.EventHandler(this.label30_Click);
             // 
             // label31
             // 
-            this.label31.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label31.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label31.Location = new System.Drawing.Point(596, 355);
+            this.label31.Location = new System.Drawing.Point(595, 354);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(56, 26);
             this.label31.TabIndex = 96;
             this.label31.Text = "$ 10.25";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // label33
             // 
-            this.label33.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label33.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label33.Location = new System.Drawing.Point(737, 266);
+            this.label33.Location = new System.Drawing.Point(736, 265);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(62, 26);
             this.label33.TabIndex = 97;
             this.label33.Text = "$ 14.00";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // label34
             // 
-            this.label34.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label34.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label34.Location = new System.Drawing.Point(737, 311);
+            this.label34.Location = new System.Drawing.Point(736, 310);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(62, 26);
             this.label34.TabIndex = 98;
             this.label34.Text = "$ 12.50";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // label35
             // 
-            this.label35.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label35.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label35.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label35.Location = new System.Drawing.Point(737, 354);
+            this.label35.Location = new System.Drawing.Point(736, 353);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(62, 26);
             this.label35.TabIndex = 99;
             this.label35.Text = "$ 12.25";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // label27
             // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label27.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label27.Location = new System.Drawing.Point(466, 263);
+            this.label27.Location = new System.Drawing.Point(465, 262);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(56, 26);
             this.label27.TabIndex = 100;
             this.label27.Text = "$ 10.00";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label27.Click += new System.EventHandler(this.label27_Click);
             // 
             // label37
             // 
-            this.label37.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label37.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label37.Location = new System.Drawing.Point(329, 466);
+            this.label37.Location = new System.Drawing.Point(328, 465);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(50, 26);
             this.label37.TabIndex = 101;
             this.label37.Text = "$6.00 +";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // label44
             // 
-            this.label44.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label44.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label44.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label44.Location = new System.Drawing.Point(133, 611);
+            this.label44.Location = new System.Drawing.Point(143, 611);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(88, 26);
@@ -1157,189 +1174,204 @@
             // 
             // label38
             // 
-            this.label38.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label38.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label38.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label38.Location = new System.Drawing.Point(466, 469);
+            this.label38.Location = new System.Drawing.Point(465, 468);
             this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(50, 26);
             this.label38.TabIndex = 109;
             this.label38.Text = "$8.00 +";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // label39
             // 
-            this.label39.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label39.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label39.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label39.Location = new System.Drawing.Point(602, 469);
+            this.label39.Location = new System.Drawing.Point(601, 468);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(50, 26);
             this.label39.TabIndex = 110;
             this.label39.Text = "$10.00 +";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label39.Click += new System.EventHandler(this.label39_Click);
             // 
             // label40
             // 
-            this.label40.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label40.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label40.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label40.Location = new System.Drawing.Point(737, 469);
+            this.label40.Location = new System.Drawing.Point(736, 468);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(50, 26);
             this.label40.TabIndex = 111;
             this.label40.Text = "$12.00 +";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
             // label41
             // 
-            this.label41.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label41.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label41.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label41.Location = new System.Drawing.Point(329, 523);
+            this.label41.Location = new System.Drawing.Point(328, 522);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(50, 26);
             this.label41.TabIndex = 112;
             this.label41.Text = "$6.00 +";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
             // label42
             // 
-            this.label42.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label42.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label42.Location = new System.Drawing.Point(466, 525);
+            this.label42.Location = new System.Drawing.Point(465, 524);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(50, 26);
             this.label42.TabIndex = 113;
             this.label42.Text = "$9.00 +";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label42.Click += new System.EventHandler(this.label42_Click);
             // 
             // label43
             // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label43.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label43.Location = new System.Drawing.Point(602, 523);
+            this.label43.Location = new System.Drawing.Point(601, 522);
             this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(50, 26);
             this.label43.TabIndex = 114;
             this.label43.Text = "$12.00 +";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label43.Click += new System.EventHandler(this.label43_Click);
             // 
             // label45
             // 
-            this.label45.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label45.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label45.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label45.Location = new System.Drawing.Point(459, 737);
+            this.label45.Location = new System.Drawing.Point(458, 736);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(50, 26);
             this.label45.TabIndex = 115;
             this.label45.Text = "$3.00";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label45.Click += new System.EventHandler(this.label45_Click);
             // 
             // label46
             // 
-            this.label46.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label46.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label46.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label46.Location = new System.Drawing.Point(459, 778);
+            this.label46.Location = new System.Drawing.Point(458, 777);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(50, 26);
             this.label46.TabIndex = 116;
             this.label46.Text = "$3.50";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label46.Click += new System.EventHandler(this.label46_Click);
             // 
             // label47
             // 
-            this.label47.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label47.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label47.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label47.Location = new System.Drawing.Point(460, 824);
+            this.label47.Location = new System.Drawing.Point(459, 823);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(50, 26);
             this.label47.TabIndex = 117;
             this.label47.Text = "$2.50";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label47.Click += new System.EventHandler(this.label47_Click);
             // 
             // label48
             // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label48.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label48.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label48.Location = new System.Drawing.Point(597, 824);
+            this.label48.Location = new System.Drawing.Point(596, 823);
             this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(50, 26);
             this.label48.TabIndex = 120;
             this.label48.Text = "$3.50";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label48.Click += new System.EventHandler(this.label48_Click);
             // 
             // label49
             // 
-            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label49.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label49.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label49.Location = new System.Drawing.Point(596, 778);
+            this.label49.Location = new System.Drawing.Point(595, 777);
             this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(50, 26);
             this.label49.TabIndex = 119;
             this.label49.Text = "$4.50";
             this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label49.Click += new System.EventHandler(this.label49_Click);
             // 
             // label50
             // 
-            this.label50.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label50.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label50.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label50.Location = new System.Drawing.Point(596, 737);
+            this.label50.Location = new System.Drawing.Point(595, 736);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(50, 26);
             this.label50.TabIndex = 118;
             this.label50.Text = "$4.00";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label50.Click += new System.EventHandler(this.label50_Click);
             // 
             // label51
             // 
-            this.label51.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label51.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label51.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label51.Location = new System.Drawing.Point(732, 824);
+            this.label51.Location = new System.Drawing.Point(731, 823);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(50, 26);
             this.label51.TabIndex = 123;
             this.label51.Text = "$4.50";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label51.Click += new System.EventHandler(this.label51_Click);
             // 
             // label52
             // 
-            this.label52.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label52.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label52.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label52.Location = new System.Drawing.Point(731, 778);
+            this.label52.Location = new System.Drawing.Point(730, 777);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(50, 26);
             this.label52.TabIndex = 122;
             this.label52.Text = "$5.00";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label52.Click += new System.EventHandler(this.label52_Click);
             // 
             // label53
             // 
-            this.label53.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label53.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label53.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label53.Location = new System.Drawing.Point(731, 737);
+            this.label53.Location = new System.Drawing.Point(730, 736);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(50, 26);
             this.label53.TabIndex = 121;
             this.label53.Text = "$5.00";
             this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label53.Click += new System.EventHandler(this.label53_Click);
             // 
             // label54
             // 
             this.label54.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label54.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label54.Location = new System.Drawing.Point(425, 1144);
+            this.label54.Location = new System.Drawing.Point(374, 1203);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(50, 26);
@@ -1351,7 +1383,7 @@
             // 
             this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label55.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label55.Location = new System.Drawing.Point(424, 1098);
+            this.label55.Location = new System.Drawing.Point(373, 1157);
             this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(50, 26);
@@ -1361,21 +1393,22 @@
             // 
             // label56
             // 
-            this.label56.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label56.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label56.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label56.Location = new System.Drawing.Point(457, 902);
+            this.label56.Location = new System.Drawing.Point(456, 901);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(50, 26);
             this.label56.TabIndex = 124;
             this.label56.Text = "$1.25";
             this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
             // label57
             // 
             this.label57.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label57.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label57.Location = new System.Drawing.Point(562, 1140);
+            this.label57.Location = new System.Drawing.Point(511, 1199);
             this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(50, 26);
@@ -1387,7 +1420,7 @@
             // 
             this.label58.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label58.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label58.Location = new System.Drawing.Point(561, 1094);
+            this.label58.Location = new System.Drawing.Point(510, 1153);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(50, 26);
@@ -1397,21 +1430,22 @@
             // 
             // label59
             // 
-            this.label59.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label59.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label59.Location = new System.Drawing.Point(594, 898);
+            this.label59.Location = new System.Drawing.Point(593, 897);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(50, 26);
             this.label59.TabIndex = 127;
             this.label59.Text = "$2.00";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label59.Click += new System.EventHandler(this.label59_Click);
             // 
             // label60
             // 
             this.label60.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label60.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label60.Location = new System.Drawing.Point(697, 1144);
+            this.label60.Location = new System.Drawing.Point(646, 1203);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(50, 26);
@@ -1423,7 +1457,7 @@
             // 
             this.label61.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label61.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label61.Location = new System.Drawing.Point(696, 1098);
+            this.label61.Location = new System.Drawing.Point(645, 1157);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(50, 26);
@@ -1433,87 +1467,94 @@
             // 
             // label62
             // 
-            this.label62.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label62.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label62.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label62.Location = new System.Drawing.Point(729, 902);
+            this.label62.Location = new System.Drawing.Point(728, 901);
             this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(50, 26);
             this.label62.TabIndex = 130;
             this.label62.Text = "$2.50";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label62.Click += new System.EventHandler(this.label62_Click);
             // 
             // label63
             // 
-            this.label63.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label63.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label63.Location = new System.Drawing.Point(729, 947);
+            this.label63.Location = new System.Drawing.Point(728, 946);
             this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(50, 26);
             this.label63.TabIndex = 135;
             this.label63.Text = "$2.50";
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label63.Click += new System.EventHandler(this.label63_Click);
             // 
             // label64
             // 
-            this.label64.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label64.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label64.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label64.Location = new System.Drawing.Point(594, 943);
+            this.label64.Location = new System.Drawing.Point(593, 942);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(50, 26);
             this.label64.TabIndex = 134;
             this.label64.Text = "$2.00";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label64.Click += new System.EventHandler(this.label64_Click);
             // 
             // label65
             // 
-            this.label65.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label65.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label65.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label65.Location = new System.Drawing.Point(457, 947);
+            this.label65.Location = new System.Drawing.Point(456, 946);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(50, 26);
             this.label65.TabIndex = 133;
             this.label65.Text = "$1.25";
             this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label65.Click += new System.EventHandler(this.label65_Click);
             // 
             // label66
             // 
-            this.label66.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label66.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label66.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label66.Location = new System.Drawing.Point(729, 990);
+            this.label66.Location = new System.Drawing.Point(728, 989);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(50, 26);
             this.label66.TabIndex = 138;
             this.label66.Text = "$5.00";
             this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label66.Click += new System.EventHandler(this.label66_Click);
             // 
             // label67
             // 
-            this.label67.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label67.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label67.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label67.Location = new System.Drawing.Point(594, 986);
+            this.label67.Location = new System.Drawing.Point(593, 985);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(50, 26);
             this.label67.TabIndex = 137;
             this.label67.Text = "$4.00";
             this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label67.Click += new System.EventHandler(this.label67_Click);
             // 
             // label68
             // 
-            this.label68.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label68.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label68.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label68.Location = new System.Drawing.Point(457, 990);
+            this.label68.Location = new System.Drawing.Point(456, 989);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(50, 26);
             this.label68.TabIndex = 136;
             this.label68.Text = "$2.25";
             this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label68.Click += new System.EventHandler(this.label68_Click);
             // 
             // Menu_Page
             // 
