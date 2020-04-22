@@ -163,7 +163,7 @@
             // 
             this.homeButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeButton.Location = new System.Drawing.Point(180, 23);
-            this.homeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.homeButton.Margin = new System.Windows.Forms.Padding(2);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(136, 63);
             this.homeButton.TabIndex = 1;
@@ -175,7 +175,7 @@
             // 
             this.dealsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dealsButton.Location = new System.Drawing.Point(321, 23);
-            this.dealsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dealsButton.Margin = new System.Windows.Forms.Padding(2);
             this.dealsButton.Name = "dealsButton";
             this.dealsButton.Size = new System.Drawing.Size(136, 63);
             this.dealsButton.TabIndex = 2;
@@ -186,7 +186,7 @@
             // 
             this.orderHistoryButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderHistoryButton.Location = new System.Drawing.Point(461, 23);
-            this.orderHistoryButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.orderHistoryButton.Margin = new System.Windows.Forms.Padding(2);
             this.orderHistoryButton.Name = "orderHistoryButton";
             this.orderHistoryButton.Size = new System.Drawing.Size(136, 63);
             this.orderHistoryButton.TabIndex = 3;
@@ -198,7 +198,7 @@
             // 
             this.accountDetailsButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accountDetailsButton.Location = new System.Drawing.Point(601, 23);
-            this.accountDetailsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.accountDetailsButton.Margin = new System.Windows.Forms.Padding(2);
             this.accountDetailsButton.Name = "accountDetailsButton";
             this.accountDetailsButton.Size = new System.Drawing.Size(163, 63);
             this.accountDetailsButton.TabIndex = 4;
@@ -850,7 +850,7 @@
             this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(20, 255);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(67, 17);
             this.checkBox1.TabIndex = 11;
@@ -862,7 +862,7 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(20, 341);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 60);
             this.button2.TabIndex = 18;
@@ -874,7 +874,7 @@
             this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(20, 277);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(64, 17);
             this.checkBox2.TabIndex = 12;
@@ -897,7 +897,7 @@
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox4.Location = new System.Drawing.Point(20, 319);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(120, 20);
             this.textBox4.TabIndex = 17;
@@ -943,7 +943,7 @@
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label21.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label21.Location = new System.Drawing.Point(329, 226);
+            this.label21.Location = new System.Drawing.Point(329, 222);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(50, 26);
@@ -955,7 +955,7 @@
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label22.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label22.Location = new System.Drawing.Point(329, 271);
+            this.label22.Location = new System.Drawing.Point(329, 267);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(50, 26);
@@ -967,7 +967,7 @@
             // 
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label23.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label23.Location = new System.Drawing.Point(329, 315);
+            this.label23.Location = new System.Drawing.Point(329, 311);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(50, 26);
@@ -979,7 +979,7 @@
             // 
             this.label24.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label24.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label24.Location = new System.Drawing.Point(329, 359);
+            this.label24.Location = new System.Drawing.Point(329, 355);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(50, 26);
@@ -991,7 +991,7 @@
             // 
             this.label25.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label25.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label25.Location = new System.Drawing.Point(466, 355);
+            this.label25.Location = new System.Drawing.Point(466, 351);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(50, 26);
@@ -1003,7 +1003,7 @@
             // 
             this.label26.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label26.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label26.Location = new System.Drawing.Point(466, 311);
+            this.label26.Location = new System.Drawing.Point(466, 307);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(50, 26);
@@ -1015,7 +1015,7 @@
             // 
             this.label28.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label28.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label28.Location = new System.Drawing.Point(466, 222);
+            this.label28.Location = new System.Drawing.Point(466, 218);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(50, 26);
@@ -1027,7 +1027,7 @@
             // 
             this.label32.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label32.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label32.Location = new System.Drawing.Point(596, 227);
+            this.label32.Location = new System.Drawing.Point(596, 223);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(56, 26);
@@ -1039,7 +1039,7 @@
             // 
             this.label36.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label36.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label36.Location = new System.Drawing.Point(737, 227);
+            this.label36.Location = new System.Drawing.Point(737, 223);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(62, 26);
@@ -1051,7 +1051,7 @@
             // 
             this.label29.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label29.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label29.Location = new System.Drawing.Point(597, 271);
+            this.label29.Location = new System.Drawing.Point(597, 267);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(56, 26);
@@ -1063,7 +1063,7 @@
             // 
             this.label30.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label30.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label30.Location = new System.Drawing.Point(597, 315);
+            this.label30.Location = new System.Drawing.Point(597, 311);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(56, 26);
@@ -1075,7 +1075,7 @@
             // 
             this.label31.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label31.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label31.Location = new System.Drawing.Point(596, 359);
+            this.label31.Location = new System.Drawing.Point(596, 355);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(56, 26);
@@ -1087,7 +1087,7 @@
             // 
             this.label33.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label33.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label33.Location = new System.Drawing.Point(737, 270);
+            this.label33.Location = new System.Drawing.Point(737, 266);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(62, 26);
@@ -1099,7 +1099,7 @@
             // 
             this.label34.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label34.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label34.Location = new System.Drawing.Point(737, 315);
+            this.label34.Location = new System.Drawing.Point(737, 311);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(62, 26);
@@ -1111,7 +1111,7 @@
             // 
             this.label35.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label35.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label35.Location = new System.Drawing.Point(737, 358);
+            this.label35.Location = new System.Drawing.Point(737, 354);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(62, 26);
@@ -1123,7 +1123,7 @@
             // 
             this.label27.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label27.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label27.Location = new System.Drawing.Point(466, 267);
+            this.label27.Location = new System.Drawing.Point(466, 263);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(56, 26);
@@ -1135,7 +1135,7 @@
             // 
             this.label37.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label37.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label37.Location = new System.Drawing.Point(329, 470);
+            this.label37.Location = new System.Drawing.Point(329, 466);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(50, 26);
@@ -1147,7 +1147,7 @@
             // 
             this.label44.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label44.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F);
-            this.label44.Location = new System.Drawing.Point(101, 613);
+            this.label44.Location = new System.Drawing.Point(133, 611);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(88, 26);
@@ -1159,7 +1159,7 @@
             // 
             this.label38.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label38.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label38.Location = new System.Drawing.Point(466, 473);
+            this.label38.Location = new System.Drawing.Point(466, 469);
             this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(50, 26);
@@ -1171,7 +1171,7 @@
             // 
             this.label39.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label39.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label39.Location = new System.Drawing.Point(602, 473);
+            this.label39.Location = new System.Drawing.Point(602, 469);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(50, 26);
@@ -1183,7 +1183,7 @@
             // 
             this.label40.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label40.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label40.Location = new System.Drawing.Point(737, 473);
+            this.label40.Location = new System.Drawing.Point(737, 469);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(50, 26);
@@ -1195,7 +1195,7 @@
             // 
             this.label41.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label41.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label41.Location = new System.Drawing.Point(329, 527);
+            this.label41.Location = new System.Drawing.Point(329, 523);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(50, 26);
@@ -1207,7 +1207,7 @@
             // 
             this.label42.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label42.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label42.Location = new System.Drawing.Point(466, 529);
+            this.label42.Location = new System.Drawing.Point(466, 525);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(50, 26);
@@ -1219,7 +1219,7 @@
             // 
             this.label43.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label43.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label43.Location = new System.Drawing.Point(602, 527);
+            this.label43.Location = new System.Drawing.Point(602, 523);
             this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(50, 26);
@@ -1231,7 +1231,7 @@
             // 
             this.label45.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label45.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label45.Location = new System.Drawing.Point(459, 741);
+            this.label45.Location = new System.Drawing.Point(459, 737);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(50, 26);
@@ -1243,7 +1243,7 @@
             // 
             this.label46.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label46.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label46.Location = new System.Drawing.Point(459, 782);
+            this.label46.Location = new System.Drawing.Point(459, 778);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(50, 26);
@@ -1255,7 +1255,7 @@
             // 
             this.label47.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label47.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label47.Location = new System.Drawing.Point(460, 828);
+            this.label47.Location = new System.Drawing.Point(460, 824);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(50, 26);
@@ -1267,7 +1267,7 @@
             // 
             this.label48.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label48.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label48.Location = new System.Drawing.Point(597, 828);
+            this.label48.Location = new System.Drawing.Point(597, 824);
             this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(50, 26);
@@ -1279,7 +1279,7 @@
             // 
             this.label49.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label49.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label49.Location = new System.Drawing.Point(596, 782);
+            this.label49.Location = new System.Drawing.Point(596, 778);
             this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(50, 26);
@@ -1291,7 +1291,7 @@
             // 
             this.label50.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label50.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label50.Location = new System.Drawing.Point(596, 741);
+            this.label50.Location = new System.Drawing.Point(596, 737);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(50, 26);
@@ -1303,7 +1303,7 @@
             // 
             this.label51.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label51.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label51.Location = new System.Drawing.Point(732, 828);
+            this.label51.Location = new System.Drawing.Point(732, 824);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(50, 26);
@@ -1315,7 +1315,7 @@
             // 
             this.label52.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label52.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label52.Location = new System.Drawing.Point(731, 782);
+            this.label52.Location = new System.Drawing.Point(731, 778);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(50, 26);
@@ -1327,7 +1327,7 @@
             // 
             this.label53.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label53.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label53.Location = new System.Drawing.Point(731, 741);
+            this.label53.Location = new System.Drawing.Point(731, 737);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(50, 26);
@@ -1339,7 +1339,7 @@
             // 
             this.label54.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label54.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label54.Location = new System.Drawing.Point(442, 1085);
+            this.label54.Location = new System.Drawing.Point(425, 1144);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(50, 26);
@@ -1351,7 +1351,7 @@
             // 
             this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label55.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label55.Location = new System.Drawing.Point(441, 1039);
+            this.label55.Location = new System.Drawing.Point(424, 1098);
             this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(50, 26);
@@ -1363,7 +1363,7 @@
             // 
             this.label56.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label56.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label56.Location = new System.Drawing.Point(457, 906);
+            this.label56.Location = new System.Drawing.Point(457, 902);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(50, 26);
@@ -1375,7 +1375,7 @@
             // 
             this.label57.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label57.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label57.Location = new System.Drawing.Point(579, 1081);
+            this.label57.Location = new System.Drawing.Point(562, 1140);
             this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(50, 26);
@@ -1387,7 +1387,7 @@
             // 
             this.label58.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label58.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label58.Location = new System.Drawing.Point(578, 1035);
+            this.label58.Location = new System.Drawing.Point(561, 1094);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(50, 26);
@@ -1399,7 +1399,7 @@
             // 
             this.label59.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label59.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label59.Location = new System.Drawing.Point(594, 902);
+            this.label59.Location = new System.Drawing.Point(594, 898);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(50, 26);
@@ -1411,7 +1411,7 @@
             // 
             this.label60.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label60.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label60.Location = new System.Drawing.Point(714, 1085);
+            this.label60.Location = new System.Drawing.Point(697, 1144);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(50, 26);
@@ -1423,7 +1423,7 @@
             // 
             this.label61.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label61.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label61.Location = new System.Drawing.Point(713, 1039);
+            this.label61.Location = new System.Drawing.Point(696, 1098);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(50, 26);
@@ -1435,7 +1435,7 @@
             // 
             this.label62.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label62.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label62.Location = new System.Drawing.Point(729, 906);
+            this.label62.Location = new System.Drawing.Point(729, 902);
             this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(50, 26);
@@ -1447,7 +1447,7 @@
             // 
             this.label63.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label63.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label63.Location = new System.Drawing.Point(729, 951);
+            this.label63.Location = new System.Drawing.Point(729, 947);
             this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(50, 26);
@@ -1459,7 +1459,7 @@
             // 
             this.label64.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label64.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label64.Location = new System.Drawing.Point(594, 947);
+            this.label64.Location = new System.Drawing.Point(594, 943);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(50, 26);
@@ -1471,7 +1471,7 @@
             // 
             this.label65.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label65.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label65.Location = new System.Drawing.Point(457, 951);
+            this.label65.Location = new System.Drawing.Point(457, 947);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(50, 26);
@@ -1483,7 +1483,7 @@
             // 
             this.label66.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label66.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label66.Location = new System.Drawing.Point(729, 994);
+            this.label66.Location = new System.Drawing.Point(729, 990);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(50, 26);
@@ -1495,7 +1495,7 @@
             // 
             this.label67.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label67.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label67.Location = new System.Drawing.Point(594, 990);
+            this.label67.Location = new System.Drawing.Point(594, 986);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(50, 26);
@@ -1507,7 +1507,7 @@
             // 
             this.label68.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label68.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.label68.Location = new System.Drawing.Point(457, 994);
+            this.label68.Location = new System.Drawing.Point(457, 990);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(50, 26);
@@ -1642,7 +1642,7 @@
             this.Controls.Add(this.orderHistoryButton);
             this.Controls.Add(this.dealsButton);
             this.Controls.Add(this.homeButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu_Page";
             this.Text = "Menu_Page";
             this.Load += new System.EventHandler(this.Menu_Page_Load);
