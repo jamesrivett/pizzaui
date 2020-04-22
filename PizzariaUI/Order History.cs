@@ -57,5 +57,10 @@ namespace PizzariaUI
             Account_Details ad = new Account_Details();
             ad.Show();
         }
+
+        private void Order_History_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
