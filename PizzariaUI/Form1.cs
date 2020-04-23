@@ -30,5 +30,12 @@ namespace PizzariaUI
             New_Customer cl = new New_Customer();
             cl.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Employee_Login el = new Employee_Login();
+            el.Show();
+        }
     }
 }

@@ -28,3 +28,4 @@ C:\Users\yagna\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.csproj.G
 C:\Users\yagna\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.csproj.CoreCompileInputs.cache
 C:\Users\yagna\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.exe
 C:\Users\yagna\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.pdb
+C:\Users\james\Documents\GitHub\pizzaui\PizzariaUI\obj\Debug\PizzariaUI.Employee_Login.resources

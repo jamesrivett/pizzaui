@@ -16,5 +16,12 @@ namespace PizzariaUI
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu_Page mp = new Menu_Page();
+            mp.Show();
+        }
     }
 }
